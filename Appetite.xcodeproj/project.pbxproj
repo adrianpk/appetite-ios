@@ -1,0 +1,1290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3340921DFF1450004C7DDA /* Controls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A33408F1DFF1392004C7DDA /* Controls.framework */; };
+		3A3340931DFF1450004C7DDA /* Controls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A33408F1DFF1392004C7DDA /* Controls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A357EDC1E0358AA006448CE /* IngredientsTableViewController-Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357EDB1E0358AA006448CE /* IngredientsTableViewController-Status.swift */; };
+		3A420DF21DDB86D3007F9015 /* PlaygroundFrameworkWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DEF1DDB86D3007F9015 /* PlaygroundFrameworkWrapper.framework */; };
+		3A420DF31DDB86D3007F9015 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DF01DDB86D3007F9015 /* Realm.framework */; };
+		3A420DF41DDB86D3007F9015 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DF11DDB86D3007F9015 /* RealmSwift.framework */; };
+		3A420DF81DDB86E1007F9015 /* PlaygroundFrameworkWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DF51DDB86E1007F9015 /* PlaygroundFrameworkWrapper.framework */; };
+		3A420DF91DDB86E1007F9015 /* PlaygroundFrameworkWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DF51DDB86E1007F9015 /* PlaygroundFrameworkWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A420DFA1DDB86E1007F9015 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DF61DDB86E1007F9015 /* Realm.framework */; };
+		3A420DFB1DDB86E1007F9015 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DF61DDB86E1007F9015 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A420DFC1DDB86E1007F9015 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DF71DDB86E1007F9015 /* RealmSwift.framework */; };
+		3A420DFD1DDB86E1007F9015 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A420DF71DDB86E1007F9015 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A4265071E369BC70056393A /* EditIngredientViewController-Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4265021E369BC70056393A /* EditIngredientViewController-Gestures.swift */; };
+		3A4265081E369BC70056393A /* EditIngredientViewController-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4265041E369BC70056393A /* EditIngredientViewController-Layout.swift */; };
+		3A4265091E369BC70056393A /* EditIngredientViewController-Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4265061E369BC70056393A /* EditIngredientViewController-Views.swift */; };
+		3A44E1E41E2BF8310071894D /* IngredientsTableViewController-Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44E1DE1E2BF8310071894D /* IngredientsTableViewController-Gestures.swift */; };
+		3A44E1E61E2BF8310071894D /* IngredientsTableViewController-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44E1E11E2BF8310071894D /* IngredientsTableViewController-Layout.swift */; };
+		3A44E1E71E2BF8310071894D /* IngredientsTableViewController-Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44E1E31E2BF8310071894D /* IngredientsTableViewController-Views.swift */; };
+		3A44E1EA1E2BFA620071894D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44E1E91E2BFA620071894D /* UIViewController.swift */; };
+		3A44E1ED1E2E5D530071894D /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A44E1EC1E2E5D520071894D /* Default.swift */; };
+		3A5BC97D1DFF11E400222ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5BC9131DFF11E400222ADD /* Assets.xcassets */; };
+		3A5BC97E1DFF11E400222ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5BC9151DFF11E400222ADD /* LaunchScreen.storyboard */; };
+		3A5BC97F1DFF11E400222ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5BC9171DFF11E400222ADD /* Main.storyboard */; };
+		3A5BC9801DFF11E400222ADD /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC91B1DFF11E400222ADD /* Constant.swift */; };
+		3A5BC9811DFF11E400222ADD /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC91C1DFF11E400222ADD /* Name.swift */; };
+		3A5BC9821DFF11E400222ADD /* UX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC91D1DFF11E400222ADD /* UX.swift */; };
+		3A5BC9831DFF11E400222ADD /* I18N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC91F1DFF11E400222ADD /* I18N.swift */; };
+		3A5BC9841DFF11E400222ADD /* I18N_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9201DFF11E400222ADD /* I18N_Text.swift */; };
+		3A5BC9851DFF11E400222ADD /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9221DFF11E400222ADD /* App.swift */; };
+		3A5BC9871DFF11E400222ADD /* EditIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9271DFF11E400222ADD /* EditIngredientViewController.swift */; };
+		3A5BC9881DFF11E400222ADD /* EditIngredientViewController-Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9291DFF11E400222ADD /* EditIngredientViewController-Pickers.swift */; };
+		3A5BC9891DFF11E400222ADD /* EditIngredientViewController-Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC92B1DFF11E400222ADD /* EditIngredientViewController-Status.swift */; };
+		3A5BC98A1DFF11E400222ADD /* EditIngredientViewController-Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC92D1DFF11E400222ADD /* EditIngredientViewController-Validations.swift */; };
+		3A5BC98B1DFF11E400222ADD /* EditRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC92F1DFF11E400222ADD /* EditRecipeViewController.swift */; };
+		3A5BC98C1DFF11E400222ADD /* EditRecipeViewController-Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9311DFF11E400222ADD /* EditRecipeViewController-Image.swift */; };
+		3A5BC98D1DFF11E400222ADD /* EditRecipeViewController-Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9331DFF11E400222ADD /* EditRecipeViewController-Pickers.swift */; };
+		3A5BC98E1DFF11E400222ADD /* EditRecipeViewController-Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9351DFF11E400222ADD /* EditRecipeViewController-Views.swift */; };
+		3A5BC98F1DFF11E400222ADD /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9381DFF11E400222ADD /* IngredientTableViewCell.swift */; };
+		3A5BC9901DFF11E400222ADD /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9391DFF11E400222ADD /* IngredientsTableViewController.swift */; };
+		3A5BC9911DFF11E400222ADD /* RecipeControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC93B1DFF11E400222ADD /* RecipeControllerDelegate.swift */; };
+		3A5BC9921DFF11E400222ADD /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC93C1DFF11E400222ADD /* TestViewController.swift */; };
+		3A5BC9981DFF11E400222ADD /* CGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9471DFF11E400222ADD /* CGColor.swift */; };
+		3A5BC9991DFF11E400222ADD /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9481DFF11E400222ADD /* Sequence.swift */; };
+		3A5BC99A1DFF11E400222ADD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9491DFF11E400222ADD /* UIColor.swift */; };
+		3A5BC99B1DFF11E400222ADD /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC94D1DFF11E400222ADD /* Classification.swift */; };
+		3A5BC99C1DFF11E400222ADD /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC94E1DFF11E400222ADD /* Ingredient.swift */; };
+		3A5BC99D1DFF11E400222ADD /* RealmEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC94F1DFF11E400222ADD /* RealmEntity.swift */; };
+		3A5BC99E1DFF11E400222ADD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9501DFF11E400222ADD /* Recipe.swift */; };
+		3A5BC99F1DFF11E400222ADD /* SchemaVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9511DFF11E400222ADD /* SchemaVersion.swift */; };
+		3A5BC9A01DFF11E400222ADD /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9521DFF11E400222ADD /* Unit.swift */; };
+		3A5BC9A11DFF11E400222ADD /* ClassificationFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9541DFF11E400222ADD /* ClassificationFinder.swift */; };
+		3A5BC9A21DFF11E400222ADD /* IngredientFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9551DFF11E400222ADD /* IngredientFinder.swift */; };
+		3A5BC9A31DFF11E400222ADD /* RealmFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9561DFF11E400222ADD /* RealmFinder.swift */; };
+		3A5BC9A41DFF11E400222ADD /* RecipeFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9571DFF11E400222ADD /* RecipeFinder.swift */; };
+		3A5BC9A51DFF11E400222ADD /* SchemaVersionFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9581DFF11E400222ADD /* SchemaVersionFinder.swift */; };
+		3A5BC9A61DFF11E400222ADD /* UnitFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9591DFF11E400222ADD /* UnitFinder.swift */; };
+		3A5BC9A71DFF11E400222ADD /* ClassificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC95B1DFF11E400222ADD /* ClassificationManager.swift */; };
+		3A5BC9A81DFF11E400222ADD /* IngredientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC95C1DFF11E400222ADD /* IngredientManager.swift */; };
+		3A5BC9A91DFF11E400222ADD /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC95D1DFF11E400222ADD /* RealmManager.swift */; };
+		3A5BC9AA1DFF11E400222ADD /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC95E1DFF11E400222ADD /* RecipeManager.swift */; };
+		3A5BC9AB1DFF11E400222ADD /* SchemaVersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC95F1DFF11E400222ADD /* SchemaVersionManager.swift */; };
+		3A5BC9AC1DFF11E400222ADD /* UnitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9601DFF11E400222ADD /* UnitManager.swift */; };
+		3A5BC9AD1DFF11E400222ADD /* RealmPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9611DFF11E400222ADD /* RealmPersistence.swift */; };
+		3A5BC9AE1DFF11E400222ADD /* IngredientUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9631DFF11E400222ADD /* IngredientUtil.swift */; };
+		3A5BC9AF1DFF11E400222ADD /* RecipeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9641DFF11E400222ADD /* RecipeUtil.swift */; };
+		3A5BC9B01DFF11E400222ADD /* IngredientValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9661DFF11E400222ADD /* IngredientValidator.swift */; };
+		3A5BC9B11DFF11E400222ADD /* ModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9671DFF11E400222ADD /* ModelValidator.swift */; };
+		3A5BC9B21DFF11E400222ADD /* RecipeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9681DFF11E400222ADD /* RecipeValidator.swift */; };
+		3A5BC9B31DFF11E400222ADD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9691DFF11E400222ADD /* Validation.swift */; };
+		3A5BC9B41DFF11E400222ADD /* RealmSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC96D1DFF11E400222ADD /* RealmSeeder.swift */; };
+		3A5BC9B51DFF11E400222ADD /* CategorySeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC96F1DFF11E400222ADD /* CategorySeeds.swift */; };
+		3A5BC9B61DFF11E400222ADD /* CuisineSeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9701DFF11E400222ADD /* CuisineSeeds.swift */; };
+		3A5BC9B71DFF11E400222ADD /* erl_crash.dump in Resources */ = {isa = PBXBuildFile; fileRef = 3A5BC9711DFF11E400222ADD /* erl_crash.dump */; };
+		3A5BC9B81DFF11E400222ADD /* IngredientSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9721DFF11E400222ADD /* IngredientSeed.swift */; };
+		3A5BC9B91DFF11E400222ADD /* LifestyleSeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9731DFF11E400222ADD /* LifestyleSeeds.swift */; };
+		3A5BC9BA1DFF11E400222ADD /* RecipeSeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9741DFF11E400222ADD /* RecipeSeeds.swift */; };
+		3A5BC9BB1DFF11E400222ADD /* StyleSeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9751DFF11E400222ADD /* StyleSeeds.swift */; };
+		3A5BC9BC1DFF11E400222ADD /* UnitSeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9761DFF11E400222ADD /* UnitSeeds.swift */; };
+		3A5BC9BD1DFF11E400222ADD /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC9771DFF11E400222ADD /* Setup.swift */; };
+		3A5BC9BE1DFF11E400222ADD /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC97A1DFF11E400222ADD /* Converter.swift */; };
+		3A5BC9BF1DFF11E400222ADD /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC97B1DFF11E400222ADD /* Mapper.swift */; };
+		3A5BC9C01DFF11E400222ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5BC97C1DFF11E400222ADD /* AppDelegate.swift */; };
+		3A76780F1E082546009D172E /* EditRecipeViewController-Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76780E1E082546009D172E /* EditRecipeViewController-Status.swift */; };
+		3A7678131E087EF4009D172E /* TableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7678121E087EF4009D172E /* TableViewCellDelegate.swift */; };
+		3A7678151E08A2DE009D172E /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7678141E08A2DE009D172E /* SampleTableViewController.swift */; };
+		3A9887C71E24F441003FB14E /* EditRecipeViewController-Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9887C61E24F441003FB14E /* EditRecipeViewController-Gestures.swift */; };
+		3ADEC6DB1DDB710A0041FC0A /* AppetiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC6DA1DDB710A0041FC0A /* AppetiteTests.swift */; };
+		3ADEC6E61DDB710A0041FC0A /* AppetiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEC6E51DDB710A0041FC0A /* AppetiteUITests.swift */; };
+		3AFB4EB81E0D151D007F6880 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB4EB71E0D151D007F6880 /* Logger.swift */; };
+		3AFB4EBC1E0D1CC9007F6880 /* EditRecipeViewController-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB4EBB1E0D1CC9007F6880 /* EditRecipeViewController-Layout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A33408E1DFF1392004C7DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3340891DFF1391004C7DDA /* Controls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3A2073AF1DFAE1A800BAEC8B;
+			remoteInfo = Controls;
+		};
+		3A3340901DFF1392004C7DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3340891DFF1391004C7DDA /* Controls.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3A2073B81DFAE1A800BAEC8B;
+			remoteInfo = ControlsTests;
+		};
+		3A3340941DFF1450004C7DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3340891DFF1391004C7DDA /* Controls.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2073AE1DFAE1A800BAEC8B;
+			remoteInfo = Controls;
+		};
+		3ADEC6D71DDB710A0041FC0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADEC6B81DDB710A0041FC0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADEC6BF1DDB710A0041FC0A;
+			remoteInfo = Appetite;
+		};
+		3ADEC6E21DDB710A0041FC0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADEC6B81DDB710A0041FC0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADEC6BF1DDB710A0041FC0A;
+			remoteInfo = Appetite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A420DFE1DDB86E1007F9015 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A420DFB1DDB86E1007F9015 /* Realm.framework in Embed Frameworks */,
+				3A420DF91DDB86E1007F9015 /* PlaygroundFrameworkWrapper.framework in Embed Frameworks */,
+				3A3340931DFF1450004C7DDA /* Controls.framework in Embed Frameworks */,
+				3A420DFD1DDB86E1007F9015 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A3340891DFF1391004C7DDA /* Controls.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Controls.xcodeproj; path = ../../../Controls/iOS/Controls/Controls.xcodeproj; sourceTree = "<group>"; };
+		3A357EDB1E0358AA006448CE /* IngredientsTableViewController-Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IngredientsTableViewController-Status.swift"; sourceTree = "<group>"; };
+		3A420DEF1DDB86D3007F9015 /* PlaygroundFrameworkWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PlaygroundFrameworkWrapper.framework; path = Carthage/Build/iOS/PlaygroundFrameworkWrapper.framework; sourceTree = "<group>"; };
+		3A420DF01DDB86D3007F9015 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		3A420DF11DDB86D3007F9015 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		3A420DF51DDB86E1007F9015 /* PlaygroundFrameworkWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PlaygroundFrameworkWrapper.framework; path = Carthage/Build/iOS/PlaygroundFrameworkWrapper.framework; sourceTree = "<group>"; };
+		3A420DF61DDB86E1007F9015 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		3A420DF71DDB86E1007F9015 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		3A4265021E369BC70056393A /* EditIngredientViewController-Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditIngredientViewController-Gestures.swift"; sourceTree = "<group>"; };
+		3A4265041E369BC70056393A /* EditIngredientViewController-Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditIngredientViewController-Layout.swift"; sourceTree = "<group>"; };
+		3A4265061E369BC70056393A /* EditIngredientViewController-Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditIngredientViewController-Views.swift"; sourceTree = "<group>"; };
+		3A44E1DE1E2BF8310071894D /* IngredientsTableViewController-Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IngredientsTableViewController-Gestures.swift"; sourceTree = "<group>"; };
+		3A44E1E11E2BF8310071894D /* IngredientsTableViewController-Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IngredientsTableViewController-Layout.swift"; sourceTree = "<group>"; };
+		3A44E1E31E2BF8310071894D /* IngredientsTableViewController-Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IngredientsTableViewController-Views.swift"; sourceTree = "<group>"; };
+		3A44E1E91E2BFA620071894D /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		3A44E1EC1E2E5D520071894D /* Default.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
+		3A5BC9121DFF11D900222ADD /* Appetite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appetite-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A5BC9131DFF11E400222ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A5BC9161DFF11E400222ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A5BC9181DFF11E400222ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		3A5BC91B1DFF11E400222ADD /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3A5BC91C1DFF11E400222ADD /* Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		3A5BC91D1DFF11E400222ADD /* UX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UX.swift; sourceTree = "<group>"; };
+		3A5BC91F1DFF11E400222ADD /* I18N.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I18N.swift; sourceTree = "<group>"; };
+		3A5BC9201DFF11E400222ADD /* I18N_Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = I18N_Text.swift; sourceTree = "<group>"; };
+		3A5BC9221DFF11E400222ADD /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		3A5BC9271DFF11E400222ADD /* EditIngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditIngredientViewController.swift; sourceTree = "<group>"; };
+		3A5BC9291DFF11E400222ADD /* EditIngredientViewController-Pickers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditIngredientViewController-Pickers.swift"; sourceTree = "<group>"; };
+		3A5BC92B1DFF11E400222ADD /* EditIngredientViewController-Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditIngredientViewController-Status.swift"; sourceTree = "<group>"; };
+		3A5BC92D1DFF11E400222ADD /* EditIngredientViewController-Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditIngredientViewController-Validations.swift"; sourceTree = "<group>"; };
+		3A5BC92F1DFF11E400222ADD /* EditRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRecipeViewController.swift; sourceTree = "<group>"; };
+		3A5BC9311DFF11E400222ADD /* EditRecipeViewController-Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditRecipeViewController-Image.swift"; sourceTree = "<group>"; };
+		3A5BC9331DFF11E400222ADD /* EditRecipeViewController-Pickers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditRecipeViewController-Pickers.swift"; sourceTree = "<group>"; };
+		3A5BC9351DFF11E400222ADD /* EditRecipeViewController-Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditRecipeViewController-Views.swift"; sourceTree = "<group>"; };
+		3A5BC9381DFF11E400222ADD /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		3A5BC9391DFF11E400222ADD /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
+		3A5BC93B1DFF11E400222ADD /* RecipeControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeControllerDelegate.swift; sourceTree = "<group>"; };
+		3A5BC93C1DFF11E400222ADD /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3A5BC9471DFF11E400222ADD /* CGColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGColor.swift; sourceTree = "<group>"; };
+		3A5BC9481DFF11E400222ADD /* Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		3A5BC9491DFF11E400222ADD /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		3A5BC94D1DFF11E400222ADD /* Classification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		3A5BC94E1DFF11E400222ADD /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		3A5BC94F1DFF11E400222ADD /* RealmEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmEntity.swift; sourceTree = "<group>"; };
+		3A5BC9501DFF11E400222ADD /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		3A5BC9511DFF11E400222ADD /* SchemaVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaVersion.swift; sourceTree = "<group>"; };
+		3A5BC9521DFF11E400222ADD /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		3A5BC9541DFF11E400222ADD /* ClassificationFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassificationFinder.swift; sourceTree = "<group>"; };
+		3A5BC9551DFF11E400222ADD /* IngredientFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientFinder.swift; sourceTree = "<group>"; };
+		3A5BC9561DFF11E400222ADD /* RealmFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmFinder.swift; sourceTree = "<group>"; };
+		3A5BC9571DFF11E400222ADD /* RecipeFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeFinder.swift; sourceTree = "<group>"; };
+		3A5BC9581DFF11E400222ADD /* SchemaVersionFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaVersionFinder.swift; sourceTree = "<group>"; };
+		3A5BC9591DFF11E400222ADD /* UnitFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitFinder.swift; sourceTree = "<group>"; };
+		3A5BC95B1DFF11E400222ADD /* ClassificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassificationManager.swift; sourceTree = "<group>"; };
+		3A5BC95C1DFF11E400222ADD /* IngredientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientManager.swift; sourceTree = "<group>"; };
+		3A5BC95D1DFF11E400222ADD /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		3A5BC95E1DFF11E400222ADD /* RecipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		3A5BC95F1DFF11E400222ADD /* SchemaVersionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaVersionManager.swift; sourceTree = "<group>"; };
+		3A5BC9601DFF11E400222ADD /* UnitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitManager.swift; sourceTree = "<group>"; };
+		3A5BC9611DFF11E400222ADD /* RealmPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPersistence.swift; sourceTree = "<group>"; };
+		3A5BC9631DFF11E400222ADD /* IngredientUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientUtil.swift; sourceTree = "<group>"; };
+		3A5BC9641DFF11E400222ADD /* RecipeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeUtil.swift; sourceTree = "<group>"; };
+		3A5BC9661DFF11E400222ADD /* IngredientValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientValidator.swift; sourceTree = "<group>"; };
+		3A5BC9671DFF11E400222ADD /* ModelValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelValidator.swift; sourceTree = "<group>"; };
+		3A5BC9681DFF11E400222ADD /* RecipeValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeValidator.swift; sourceTree = "<group>"; };
+		3A5BC9691DFF11E400222ADD /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		3A5BC96D1DFF11E400222ADD /* RealmSeeder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmSeeder.swift; sourceTree = "<group>"; };
+		3A5BC96F1DFF11E400222ADD /* CategorySeeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorySeeds.swift; sourceTree = "<group>"; };
+		3A5BC9701DFF11E400222ADD /* CuisineSeeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuisineSeeds.swift; sourceTree = "<group>"; };
+		3A5BC9711DFF11E400222ADD /* erl_crash.dump */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = erl_crash.dump; sourceTree = "<group>"; };
+		3A5BC9721DFF11E400222ADD /* IngredientSeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientSeed.swift; sourceTree = "<group>"; };
+		3A5BC9731DFF11E400222ADD /* LifestyleSeeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifestyleSeeds.swift; sourceTree = "<group>"; };
+		3A5BC9741DFF11E400222ADD /* RecipeSeeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeSeeds.swift; sourceTree = "<group>"; };
+		3A5BC9751DFF11E400222ADD /* StyleSeeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSeeds.swift; sourceTree = "<group>"; };
+		3A5BC9761DFF11E400222ADD /* UnitSeeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitSeeds.swift; sourceTree = "<group>"; };
+		3A5BC9771DFF11E400222ADD /* Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		3A5BC97A1DFF11E400222ADD /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		3A5BC97B1DFF11E400222ADD /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		3A5BC97C1DFF11E400222ADD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A76780E1E082546009D172E /* EditRecipeViewController-Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditRecipeViewController-Status.swift"; sourceTree = "<group>"; };
+		3A7678121E087EF4009D172E /* TableViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellDelegate.swift; sourceTree = "<group>"; };
+		3A7678141E08A2DE009D172E /* SampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
+		3A9887C61E24F441003FB14E /* EditRecipeViewController-Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditRecipeViewController-Gestures.swift"; sourceTree = "<group>"; };
+		3ADEC6C01DDB710A0041FC0A /* Appetite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADEC6D61DDB710A0041FC0A /* AppetiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADEC6DA1DDB710A0041FC0A /* AppetiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetiteTests.swift; sourceTree = "<group>"; };
+		3ADEC6DC1DDB710A0041FC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADEC6E11DDB710A0041FC0A /* AppetiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppetiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADEC6E51DDB710A0041FC0A /* AppetiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetiteUITests.swift; sourceTree = "<group>"; };
+		3ADEC6E71DDB710A0041FC0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFB4EB71E0D151D007F6880 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		3AFB4EBB1E0D1CC9007F6880 /* EditRecipeViewController-Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EditRecipeViewController-Layout.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADEC6BD1DDB710A0041FC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A420DF81DDB86E1007F9015 /* PlaygroundFrameworkWrapper.framework in Frameworks */,
+				3A420DF21DDB86D3007F9015 /* PlaygroundFrameworkWrapper.framework in Frameworks */,
+				3A420DFC1DDB86E1007F9015 /* RealmSwift.framework in Frameworks */,
+				3A3340921DFF1450004C7DDA /* Controls.framework in Frameworks */,
+				3A420DF31DDB86D3007F9015 /* Realm.framework in Frameworks */,
+				3A420DF41DDB86D3007F9015 /* RealmSwift.framework in Frameworks */,
+				3A420DFA1DDB86E1007F9015 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADEC6D31DDB710A0041FC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADEC6DE1DDB710A0041FC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A33408A1DFF1391004C7DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A33408F1DFF1392004C7DDA /* Controls.framework */,
+				3A3340911DFF1392004C7DDA /* ControlsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A357ED91E0357C8006448CE /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				3A357EDB1E0358AA006448CE /* IngredientsTableViewController-Status.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		3A420DEE1DDB86CE007F9015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A420DEF1DDB86D3007F9015 /* PlaygroundFrameworkWrapper.framework */,
+				3A420DF01DDB86D3007F9015 /* Realm.framework */,
+				3A420DF11DDB86D3007F9015 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A4265011E369BC70056393A /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				3A4265021E369BC70056393A /* EditIngredientViewController-Gestures.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		3A4265031E369BC70056393A /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				3A4265041E369BC70056393A /* EditIngredientViewController-Layout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		3A4265051E369BC70056393A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A4265061E369BC70056393A /* EditIngredientViewController-Views.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A44E1DD1E2BF8310071894D /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				3A44E1DE1E2BF8310071894D /* IngredientsTableViewController-Gestures.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		3A44E1DF1E2BF8310071894D /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				3A44E1E11E2BF8310071894D /* IngredientsTableViewController-Layout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		3A44E1E21E2BF8310071894D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A44E1E31E2BF8310071894D /* IngredientsTableViewController-Views.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A44E1EB1E2E5D2E0071894D /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				3A44E1EC1E2E5D520071894D /* Default.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		3A5BC9141DFF11E400222ADD /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9151DFF11E400222ADD /* LaunchScreen.storyboard */,
+				3A5BC9171DFF11E400222ADD /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		3A5BC9191DFF11E400222ADD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC91A1DFF11E400222ADD /* Data */,
+				3A5BC91E1DFF11E400222ADD /* I18N */,
+				3A5BC9211DFF11E400222ADD /* Settings */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3A5BC91A1DFF11E400222ADD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC91B1DFF11E400222ADD /* Constant.swift */,
+				3A5BC91C1DFF11E400222ADD /* Name.swift */,
+				3A5BC91D1DFF11E400222ADD /* UX.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3A5BC91E1DFF11E400222ADD /* I18N */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC91F1DFF11E400222ADD /* I18N.swift */,
+				3A5BC9201DFF11E400222ADD /* I18N_Text.swift */,
+			);
+			path = I18N;
+			sourceTree = "<group>";
+		};
+		3A5BC9211DFF11E400222ADD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9221DFF11E400222ADD /* App.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3A5BC9251DFF11E400222ADD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A44E1EB1E2E5D2E0071894D /* Defaults */,
+				3A5BC93A1DFF11E400222ADD /* Protocols */,
+				3A5BC92E1DFF11E400222ADD /* EditRecipe */,
+				3A5BC9361DFF11E400222ADD /* IngredientsTable */,
+				3A5BC9261DFF11E400222ADD /* EditIngredient */,
+				3A5BC93C1DFF11E400222ADD /* TestViewController.swift */,
+				3A7678141E08A2DE009D172E /* SampleTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A5BC9261DFF11E400222ADD /* EditIngredient */ = {
+			isa = PBXGroup;
+			children = (
+				3A4265011E369BC70056393A /* Gestures */,
+				3A4265031E369BC70056393A /* Layout */,
+				3A4265051E369BC70056393A /* Views */,
+				3A5BC9281DFF11E400222ADD /* Pickers */,
+				3A5BC92A1DFF11E400222ADD /* Status */,
+				3A5BC92C1DFF11E400222ADD /* Validations */,
+				3A5BC9271DFF11E400222ADD /* EditIngredientViewController.swift */,
+			);
+			path = EditIngredient;
+			sourceTree = "<group>";
+		};
+		3A5BC9281DFF11E400222ADD /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9291DFF11E400222ADD /* EditIngredientViewController-Pickers.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		3A5BC92A1DFF11E400222ADD /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC92B1DFF11E400222ADD /* EditIngredientViewController-Status.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		3A5BC92C1DFF11E400222ADD /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC92D1DFF11E400222ADD /* EditIngredientViewController-Validations.swift */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		3A5BC92E1DFF11E400222ADD /* EditRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC92F1DFF11E400222ADD /* EditRecipeViewController.swift */,
+				3AFB4EBA1E0D1CA9007F6880 /* Layout */,
+				3A9887C41E24F416003FB14E /* Gestures */,
+				3AD1C7EC1E07F09B00F69B4F /* Status */,
+				3A5BC9301DFF11E400222ADD /* Image */,
+				3A5BC9321DFF11E400222ADD /* Pickers */,
+				3A5BC9341DFF11E400222ADD /* Views */,
+			);
+			path = EditRecipe;
+			sourceTree = "<group>";
+		};
+		3A5BC9301DFF11E400222ADD /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9311DFF11E400222ADD /* EditRecipeViewController-Image.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		3A5BC9321DFF11E400222ADD /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9331DFF11E400222ADD /* EditRecipeViewController-Pickers.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		3A5BC9341DFF11E400222ADD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9351DFF11E400222ADD /* EditRecipeViewController-Views.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A5BC9361DFF11E400222ADD /* IngredientsTable */ = {
+			isa = PBXGroup;
+			children = (
+				3A44E1DD1E2BF8310071894D /* Gestures */,
+				3A44E1DF1E2BF8310071894D /* Layout */,
+				3A44E1E21E2BF8310071894D /* Views */,
+				3A357ED91E0357C8006448CE /* Status */,
+				3A5BC9371DFF11E400222ADD /* Cells */,
+				3A5BC9391DFF11E400222ADD /* IngredientsTableViewController.swift */,
+			);
+			path = IngredientsTable;
+			sourceTree = "<group>";
+		};
+		3A5BC9371DFF11E400222ADD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9381DFF11E400222ADD /* IngredientTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3A5BC93A1DFF11E400222ADD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC93B1DFF11E400222ADD /* RecipeControllerDelegate.swift */,
+				3A7678121E087EF4009D172E /* TableViewCellDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3A5BC9461DFF11E400222ADD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9471DFF11E400222ADD /* CGColor.swift */,
+				3A5BC9481DFF11E400222ADD /* Sequence.swift */,
+				3A5BC9491DFF11E400222ADD /* UIColor.swift */,
+				3A44E1E91E2BFA620071894D /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A5BC94A1DFF11E400222ADD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC94B1DFF11E400222ADD /* Realm */,
+				3A5BC9651DFF11E400222ADD /* Validators */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A5BC94B1DFF11E400222ADD /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC94C1DFF11E400222ADD /* Entities */,
+				3A5BC9531DFF11E400222ADD /* Finders */,
+				3A5BC95A1DFF11E400222ADD /* Managers */,
+				3A5BC9611DFF11E400222ADD /* RealmPersistence.swift */,
+				3A5BC9621DFF11E400222ADD /* Util */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		3A5BC94C1DFF11E400222ADD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC94D1DFF11E400222ADD /* Classification.swift */,
+				3A5BC94E1DFF11E400222ADD /* Ingredient.swift */,
+				3A5BC94F1DFF11E400222ADD /* RealmEntity.swift */,
+				3A5BC9501DFF11E400222ADD /* Recipe.swift */,
+				3A5BC9511DFF11E400222ADD /* SchemaVersion.swift */,
+				3A5BC9521DFF11E400222ADD /* Unit.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		3A5BC9531DFF11E400222ADD /* Finders */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9541DFF11E400222ADD /* ClassificationFinder.swift */,
+				3A5BC9551DFF11E400222ADD /* IngredientFinder.swift */,
+				3A5BC9561DFF11E400222ADD /* RealmFinder.swift */,
+				3A5BC9571DFF11E400222ADD /* RecipeFinder.swift */,
+				3A5BC9581DFF11E400222ADD /* SchemaVersionFinder.swift */,
+				3A5BC9591DFF11E400222ADD /* UnitFinder.swift */,
+			);
+			path = Finders;
+			sourceTree = "<group>";
+		};
+		3A5BC95A1DFF11E400222ADD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC95B1DFF11E400222ADD /* ClassificationManager.swift */,
+				3A5BC95C1DFF11E400222ADD /* IngredientManager.swift */,
+				3A5BC95D1DFF11E400222ADD /* RealmManager.swift */,
+				3A5BC95E1DFF11E400222ADD /* RecipeManager.swift */,
+				3A5BC95F1DFF11E400222ADD /* SchemaVersionManager.swift */,
+				3A5BC9601DFF11E400222ADD /* UnitManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3A5BC9621DFF11E400222ADD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9631DFF11E400222ADD /* IngredientUtil.swift */,
+				3A5BC9641DFF11E400222ADD /* RecipeUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3A5BC9651DFF11E400222ADD /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC9661DFF11E400222ADD /* IngredientValidator.swift */,
+				3A5BC9671DFF11E400222ADD /* ModelValidator.swift */,
+				3A5BC9681DFF11E400222ADD /* RecipeValidator.swift */,
+				3A5BC9691DFF11E400222ADD /* Validation.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		3A5BC96A1DFF11E400222ADD /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC96B1DFF11E400222ADD /* Persistence */,
+				3A5BC9771DFF11E400222ADD /* Setup.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		3A5BC96B1DFF11E400222ADD /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC96C1DFF11E400222ADD /* Realm */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		3A5BC96C1DFF11E400222ADD /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC96D1DFF11E400222ADD /* RealmSeeder.swift */,
+				3A5BC96E1DFF11E400222ADD /* Seeds */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		3A5BC96E1DFF11E400222ADD /* Seeds */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC96F1DFF11E400222ADD /* CategorySeeds.swift */,
+				3A5BC9701DFF11E400222ADD /* CuisineSeeds.swift */,
+				3A5BC9711DFF11E400222ADD /* erl_crash.dump */,
+				3A5BC9721DFF11E400222ADD /* IngredientSeed.swift */,
+				3A5BC9731DFF11E400222ADD /* LifestyleSeeds.swift */,
+				3A5BC9741DFF11E400222ADD /* RecipeSeeds.swift */,
+				3A5BC9751DFF11E400222ADD /* StyleSeeds.swift */,
+				3A5BC9761DFF11E400222ADD /* UnitSeeds.swift */,
+			);
+			path = Seeds;
+			sourceTree = "<group>";
+		};
+		3A5BC9781DFF11E400222ADD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB4EB71E0D151D007F6880 /* Logger.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		3A5BC9791DFF11E400222ADD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC97A1DFF11E400222ADD /* Converter.swift */,
+				3A5BC97B1DFF11E400222ADD /* Mapper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3A9887C41E24F416003FB14E /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				3A9887C61E24F441003FB14E /* EditRecipeViewController-Gestures.swift */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		3AD1C7EC1E07F09B00F69B4F /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				3A76780E1E082546009D172E /* EditRecipeViewController-Status.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		3ADEC6B71DDB710A0041FC0A = {
+			isa = PBXGroup;
+			children = (
+				3A3340891DFF1391004C7DDA /* Controls.xcodeproj */,
+				3A420DF51DDB86E1007F9015 /* PlaygroundFrameworkWrapper.framework */,
+				3A420DF61DDB86E1007F9015 /* Realm.framework */,
+				3A420DF71DDB86E1007F9015 /* RealmSwift.framework */,
+				3ADEC6C21DDB710A0041FC0A /* Appetite */,
+				3ADEC6D91DDB710A0041FC0A /* AppetiteTests */,
+				3ADEC6E41DDB710A0041FC0A /* AppetiteUITests */,
+				3ADEC6C11DDB710A0041FC0A /* Products */,
+				3A420DEE1DDB86CE007F9015 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3ADEC6C11DDB710A0041FC0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC6C01DDB710A0041FC0A /* Appetite.app */,
+				3ADEC6D61DDB710A0041FC0A /* AppetiteTests.xctest */,
+				3ADEC6E11DDB710A0041FC0A /* AppetiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADEC6C21DDB710A0041FC0A /* Appetite */ = {
+			isa = PBXGroup;
+			children = (
+				3A5BC97C1DFF11E400222ADD /* AppDelegate.swift */,
+				3A5BC9121DFF11D900222ADD /* Appetite-Bridging-Header.h */,
+				3A5BC9131DFF11E400222ADD /* Assets.xcassets */,
+				3A5BC9141DFF11E400222ADD /* Base.lproj */,
+				3A5BC9191DFF11E400222ADD /* Config */,
+				3A5BC96A1DFF11E400222ADD /* Setup */,
+				3A5BC9781DFF11E400222ADD /* Support */,
+				3A5BC9461DFF11E400222ADD /* Extensions */,
+				3A5BC9791DFF11E400222ADD /* Util */,
+				3A5BC94A1DFF11E400222ADD /* Models */,
+				3A5BC9251DFF11E400222ADD /* Controllers */,
+			);
+			path = Appetite;
+			sourceTree = "<group>";
+		};
+		3ADEC6D91DDB710A0041FC0A /* AppetiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC6DA1DDB710A0041FC0A /* AppetiteTests.swift */,
+				3ADEC6DC1DDB710A0041FC0A /* Info.plist */,
+			);
+			path = AppetiteTests;
+			sourceTree = "<group>";
+		};
+		3ADEC6E41DDB710A0041FC0A /* AppetiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADEC6E51DDB710A0041FC0A /* AppetiteUITests.swift */,
+				3ADEC6E71DDB710A0041FC0A /* Info.plist */,
+			);
+			path = AppetiteUITests;
+			sourceTree = "<group>";
+		};
+		3AFB4EBA1E0D1CA9007F6880 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB4EBB1E0D1CC9007F6880 /* EditRecipeViewController-Layout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ADEC6BF1DDB710A0041FC0A /* Appetite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADEC6EA1DDB710A0041FC0A /* Build configuration list for PBXNativeTarget "Appetite" */;
+			buildPhases = (
+				3ADEC6BC1DDB710A0041FC0A /* Sources */,
+				3ADEC6BD1DDB710A0041FC0A /* Frameworks */,
+				3ADEC6BE1DDB710A0041FC0A /* Resources */,
+				3A420DFE1DDB86E1007F9015 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3340951DFF1450004C7DDA /* PBXTargetDependency */,
+			);
+			name = Appetite;
+			productName = Appetite;
+			productReference = 3ADEC6C01DDB710A0041FC0A /* Appetite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ADEC6D51DDB710A0041FC0A /* AppetiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADEC6ED1DDB710A0041FC0A /* Build configuration list for PBXNativeTarget "AppetiteTests" */;
+			buildPhases = (
+				3ADEC6D21DDB710A0041FC0A /* Sources */,
+				3ADEC6D31DDB710A0041FC0A /* Frameworks */,
+				3ADEC6D41DDB710A0041FC0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADEC6D81DDB710A0041FC0A /* PBXTargetDependency */,
+			);
+			name = AppetiteTests;
+			productName = AppetiteTests;
+			productReference = 3ADEC6D61DDB710A0041FC0A /* AppetiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ADEC6E01DDB710A0041FC0A /* AppetiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADEC6F01DDB710A0041FC0A /* Build configuration list for PBXNativeTarget "AppetiteUITests" */;
+			buildPhases = (
+				3ADEC6DD1DDB710A0041FC0A /* Sources */,
+				3ADEC6DE1DDB710A0041FC0A /* Frameworks */,
+				3ADEC6DF1DDB710A0041FC0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADEC6E31DDB710A0041FC0A /* PBXTargetDependency */,
+			);
+			name = AppetiteUITests;
+			productName = AppetiteUITests;
+			productReference = 3ADEC6E11DDB710A0041FC0A /* AppetiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ADEC6B81DDB710A0041FC0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Kuguar;
+				TargetAttributes = {
+					3ADEC6BF1DDB710A0041FC0A = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					3ADEC6D51DDB710A0041FC0A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ADEC6BF1DDB710A0041FC0A;
+					};
+					3ADEC6E01DDB710A0041FC0A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ADEC6BF1DDB710A0041FC0A;
+					};
+				};
+			};
+			buildConfigurationList = 3ADEC6BB1DDB710A0041FC0A /* Build configuration list for PBXProject "Appetite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ADEC6B71DDB710A0041FC0A;
+			productRefGroup = 3ADEC6C11DDB710A0041FC0A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3A33408A1DFF1391004C7DDA /* Products */;
+					ProjectRef = 3A3340891DFF1391004C7DDA /* Controls.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3ADEC6BF1DDB710A0041FC0A /* Appetite */,
+				3ADEC6D51DDB710A0041FC0A /* AppetiteTests */,
+				3ADEC6E01DDB710A0041FC0A /* AppetiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3A33408F1DFF1392004C7DDA /* Controls.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Controls.framework;
+			remoteRef = 3A33408E1DFF1392004C7DDA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3A3340911DFF1392004C7DDA /* ControlsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ControlsTests.xctest;
+			remoteRef = 3A3340901DFF1392004C7DDA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ADEC6BE1DDB710A0041FC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5BC97F1DFF11E400222ADD /* Main.storyboard in Resources */,
+				3A5BC9B71DFF11E400222ADD /* erl_crash.dump in Resources */,
+				3A5BC97D1DFF11E400222ADD /* Assets.xcassets in Resources */,
+				3A5BC97E1DFF11E400222ADD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADEC6D41DDB710A0041FC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADEC6DF1DDB710A0041FC0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADEC6BC1DDB710A0041FC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5BC9BD1DFF11E400222ADD /* Setup.swift in Sources */,
+				3A5BC9B61DFF11E400222ADD /* CuisineSeeds.swift in Sources */,
+				3A5BC9B01DFF11E400222ADD /* IngredientValidator.swift in Sources */,
+				3A5BC9901DFF11E400222ADD /* IngredientsTableViewController.swift in Sources */,
+				3A9887C71E24F441003FB14E /* EditRecipeViewController-Gestures.swift in Sources */,
+				3AFB4EB81E0D151D007F6880 /* Logger.swift in Sources */,
+				3A5BC9921DFF11E400222ADD /* TestViewController.swift in Sources */,
+				3A5BC9811DFF11E400222ADD /* Name.swift in Sources */,
+				3A5BC9BE1DFF11E400222ADD /* Converter.swift in Sources */,
+				3AFB4EBC1E0D1CC9007F6880 /* EditRecipeViewController-Layout.swift in Sources */,
+				3A5BC9A91DFF11E400222ADD /* RealmManager.swift in Sources */,
+				3A5BC9A41DFF11E400222ADD /* RecipeFinder.swift in Sources */,
+				3A4265081E369BC70056393A /* EditIngredientViewController-Layout.swift in Sources */,
+				3A5BC9AD1DFF11E400222ADD /* RealmPersistence.swift in Sources */,
+				3A5BC99F1DFF11E400222ADD /* SchemaVersion.swift in Sources */,
+				3A5BC9AA1DFF11E400222ADD /* RecipeManager.swift in Sources */,
+				3A5BC9A01DFF11E400222ADD /* Unit.swift in Sources */,
+				3A5BC9B21DFF11E400222ADD /* RecipeValidator.swift in Sources */,
+				3A76780F1E082546009D172E /* EditRecipeViewController-Status.swift in Sources */,
+				3A5BC9991DFF11E400222ADD /* Sequence.swift in Sources */,
+				3A5BC9831DFF11E400222ADD /* I18N.swift in Sources */,
+				3A7678151E08A2DE009D172E /* SampleTableViewController.swift in Sources */,
+				3A5BC99D1DFF11E400222ADD /* RealmEntity.swift in Sources */,
+				3A5BC9A81DFF11E400222ADD /* IngredientManager.swift in Sources */,
+				3A5BC9981DFF11E400222ADD /* CGColor.swift in Sources */,
+				3A5BC9A71DFF11E400222ADD /* ClassificationManager.swift in Sources */,
+				3A5BC9801DFF11E400222ADD /* Constant.swift in Sources */,
+				3A4265071E369BC70056393A /* EditIngredientViewController-Gestures.swift in Sources */,
+				3A5BC98F1DFF11E400222ADD /* IngredientTableViewCell.swift in Sources */,
+				3A5BC9851DFF11E400222ADD /* App.swift in Sources */,
+				3A5BC9821DFF11E400222ADD /* UX.swift in Sources */,
+				3A5BC98D1DFF11E400222ADD /* EditRecipeViewController-Pickers.swift in Sources */,
+				3A5BC9A51DFF11E400222ADD /* SchemaVersionFinder.swift in Sources */,
+				3A5BC9B11DFF11E400222ADD /* ModelValidator.swift in Sources */,
+				3A5BC9BA1DFF11E400222ADD /* RecipeSeeds.swift in Sources */,
+				3A5BC9A21DFF11E400222ADD /* IngredientFinder.swift in Sources */,
+				3A5BC9B31DFF11E400222ADD /* Validation.swift in Sources */,
+				3A44E1ED1E2E5D530071894D /* Default.swift in Sources */,
+				3A5BC9B41DFF11E400222ADD /* RealmSeeder.swift in Sources */,
+				3A5BC9BC1DFF11E400222ADD /* UnitSeeds.swift in Sources */,
+				3A5BC98B1DFF11E400222ADD /* EditRecipeViewController.swift in Sources */,
+				3A5BC9841DFF11E400222ADD /* I18N_Text.swift in Sources */,
+				3A4265091E369BC70056393A /* EditIngredientViewController-Views.swift in Sources */,
+				3A5BC9C01DFF11E400222ADD /* AppDelegate.swift in Sources */,
+				3A44E1E61E2BF8310071894D /* IngredientsTableViewController-Layout.swift in Sources */,
+				3A5BC99C1DFF11E400222ADD /* Ingredient.swift in Sources */,
+				3A357EDC1E0358AA006448CE /* IngredientsTableViewController-Status.swift in Sources */,
+				3A5BC9881DFF11E400222ADD /* EditIngredientViewController-Pickers.swift in Sources */,
+				3A5BC9911DFF11E400222ADD /* RecipeControllerDelegate.swift in Sources */,
+				3A5BC9B51DFF11E400222ADD /* CategorySeeds.swift in Sources */,
+				3A5BC9AF1DFF11E400222ADD /* RecipeUtil.swift in Sources */,
+				3A5BC9A11DFF11E400222ADD /* ClassificationFinder.swift in Sources */,
+				3A7678131E087EF4009D172E /* TableViewCellDelegate.swift in Sources */,
+				3A5BC9BB1DFF11E400222ADD /* StyleSeeds.swift in Sources */,
+				3A5BC98E1DFF11E400222ADD /* EditRecipeViewController-Views.swift in Sources */,
+				3A5BC99A1DFF11E400222ADD /* UIColor.swift in Sources */,
+				3A5BC99B1DFF11E400222ADD /* Classification.swift in Sources */,
+				3A5BC9871DFF11E400222ADD /* EditIngredientViewController.swift in Sources */,
+				3A5BC9B91DFF11E400222ADD /* LifestyleSeeds.swift in Sources */,
+				3A44E1E41E2BF8310071894D /* IngredientsTableViewController-Gestures.swift in Sources */,
+				3A5BC9A61DFF11E400222ADD /* UnitFinder.swift in Sources */,
+				3A5BC9AC1DFF11E400222ADD /* UnitManager.swift in Sources */,
+				3A5BC98A1DFF11E400222ADD /* EditIngredientViewController-Validations.swift in Sources */,
+				3A44E1EA1E2BFA620071894D /* UIViewController.swift in Sources */,
+				3A5BC9B81DFF11E400222ADD /* IngredientSeed.swift in Sources */,
+				3A5BC9AB1DFF11E400222ADD /* SchemaVersionManager.swift in Sources */,
+				3A44E1E71E2BF8310071894D /* IngredientsTableViewController-Views.swift in Sources */,
+				3A5BC98C1DFF11E400222ADD /* EditRecipeViewController-Image.swift in Sources */,
+				3A5BC9BF1DFF11E400222ADD /* Mapper.swift in Sources */,
+				3A5BC9AE1DFF11E400222ADD /* IngredientUtil.swift in Sources */,
+				3A5BC9A31DFF11E400222ADD /* RealmFinder.swift in Sources */,
+				3A5BC99E1DFF11E400222ADD /* Recipe.swift in Sources */,
+				3A5BC9891DFF11E400222ADD /* EditIngredientViewController-Status.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADEC6D21DDB710A0041FC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADEC6DB1DDB710A0041FC0A /* AppetiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADEC6DD1DDB710A0041FC0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADEC6E61DDB710A0041FC0A /* AppetiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3340951DFF1450004C7DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Controls;
+			targetProxy = 3A3340941DFF1450004C7DDA /* PBXContainerItemProxy */;
+		};
+		3ADEC6D81DDB710A0041FC0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADEC6BF1DDB710A0041FC0A /* Appetite */;
+			targetProxy = 3ADEC6D71DDB710A0041FC0A /* PBXContainerItemProxy */;
+		};
+		3ADEC6E31DDB710A0041FC0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADEC6BF1DDB710A0041FC0A /* Appetite */;
+			targetProxy = 3ADEC6E21DDB710A0041FC0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A5BC9151DFF11E400222ADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5BC9161DFF11E400222ADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A5BC9171DFF11E400222ADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5BC9181DFF11E400222ADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ADEC6E81DDB710A0041FC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ADEC6E91DDB710A0041FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ADEC6EB1DDB710A0041FC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Appetite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kuguar.ios.Appetite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Appetite/Appetite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3ADEC6EC1DDB710A0041FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Appetite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kuguar.ios.Appetite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Appetite/Appetite-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3ADEC6EE1DDB710A0041FC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppetiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kuguar.ios.AppetiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appetite.app/Appetite";
+			};
+			name = Debug;
+		};
+		3ADEC6EF1DDB710A0041FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppetiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kuguar.ios.AppetiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appetite.app/Appetite";
+			};
+			name = Release;
+		};
+		3ADEC6F11DDB710A0041FC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AppetiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kuguar.ios.AppetiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Appetite;
+			};
+			name = Debug;
+		};
+		3ADEC6F21DDB710A0041FC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AppetiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kuguar.ios.AppetiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Appetite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADEC6BB1DDB710A0041FC0A /* Build configuration list for PBXProject "Appetite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADEC6E81DDB710A0041FC0A /* Debug */,
+				3ADEC6E91DDB710A0041FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADEC6EA1DDB710A0041FC0A /* Build configuration list for PBXNativeTarget "Appetite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADEC6EB1DDB710A0041FC0A /* Debug */,
+				3ADEC6EC1DDB710A0041FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADEC6ED1DDB710A0041FC0A /* Build configuration list for PBXNativeTarget "AppetiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADEC6EE1DDB710A0041FC0A /* Debug */,
+				3ADEC6EF1DDB710A0041FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADEC6F01DDB710A0041FC0A /* Build configuration list for PBXNativeTarget "AppetiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADEC6F11DDB710A0041FC0A /* Debug */,
+				3ADEC6F21DDB710A0041FC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ADEC6B81DDB710A0041FC0A /* Project object */;
+}
